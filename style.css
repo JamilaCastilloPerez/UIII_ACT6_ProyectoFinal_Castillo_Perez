@@ -1,0 +1,146 @@
+* {
+	padding: 0;
+	margin: 0;
+	
+}
+body {
+	background:#ffeaea;
+	
+}
+
+header {
+	
+	
+	overflow: hidden;
+	background-color: rgb(253, 188, 188);
+}
+
+a {
+	text-decoration: none;
+	color:#ff5e66;
+	
+}
+
+h1 {
+	color: #fdfdfd;
+     font-size: 50px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
+	
+}
+
+h2 {
+	color: #ff9393;
+     font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+	text-align: center;
+}
+h3
+{
+	color: white;
+	font-weight: bold;
+}
+
+form{
+
+	width: 100%;
+	padding-top: 0px;
+	margin-bottom: 30px;
+	background-color: #ffa8ac;
+	border-radius: 10px;
+	font-family: monospace;
+	padding: 30px;
+	color: #fefeff;
+}
+
+input{
+	
+	background-color: rgb(255, 211, 211);
+	font-family: monospace;
+	width: calc(100% - 20px);
+	padding: 10px;
+	margin: auto;
+	margin-top: 9px;
+	margin-left: 9px;
+	font-size: 16px;
+	background-color: #ffd0d0;
+	border-radius: 10px;
+	border-color: #fd3f58;
+	color: #f15960;
+}
+input:hover{
+	background-color: #ffffff;
+}
+input[type='submit']{
+	padding: 5px;
+	border-radius: 10px;
+	font-size: 35px;
+	width: 93%;
+	background-color: rgb(228, 88, 88);
+	color: white;
+	cursor: pointer;
+	border:none;
+}
+input[type='submit']:hover{
+	background-color: #ffcdcf;
+	cursor: pointer;
+}
+
+
+.btn{
+	cursor: pointer;
+	font-size: 25px;
+	background-color: rgb(255, 228, 228);
+	color: rgb(250, 82, 96);
+	border-color: rgb(255, 82, 96);
+}
+
+
+th{
+	font-weight: bold;
+	font-size: 16px;
+	vertical-align: middle;
+	text-align: center;
+	color: white;
+	font-family: monospace;
+
+	
+}
+.table-success{
+	--bs-table-bg: #f04058;
+	color: white;
+	border-bottom: solid 5px rgb(255, 231, 235);
+	font-weight: normal;
+	text-transform: uppercase;
+}
+td{
+	font-size: 20px;
+	vertical-align: middle;
+	border-color: #ffe9e9;
+}
+table{
+	border-radius: 10px;
+    overflow: hidden;
+	background-color: #ff888e;
+	color: white;
+	
+}
+
+
+footer {
+	background-color: #ffa7ab;
+	padding:10px ;
+	margin-top: 20px;
+	text-align: center;
+}
+
+footer p {
+	text-align:center;
+		margin: 0;
+		color:white;
+}
+.update{
+	width: 100%;
+}
